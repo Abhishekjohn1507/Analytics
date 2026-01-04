@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import TrackingScripts from "./pages/TrackingScripts";
 import PublicDashboard from "./pages/PublicDashboard";
 import NotFound from "./pages/NotFound";
+import Analytics from "./components/Analytics";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+            <Analytics />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
