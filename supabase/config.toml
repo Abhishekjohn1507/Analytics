@@ -1,0 +1,10 @@
+project_id = "chelqujdhnjboeeamxtu"
+
+[functions.track-pageview]
+verify_jwt = false
+
+[functions.register-website]
+verify_jwt = false
+
+[functions.send-milestone-email]
+verify_jwt = false
